@@ -25,7 +25,6 @@ section:hover {
     padding: 10px;
 }
 
-
 .card img {
     width: 100px;
 }
@@ -37,8 +36,6 @@ footer {
     text-align: center;
 }
 
-
-
 footer a {
     background-color: rgb(255, 255, 255);
     padding: 25px;
@@ -48,7 +45,6 @@ footer a {
 footer a:hover {
     background-color: rgb(255, 111, 111);
 }
-
 
 body{
     display: grid;
@@ -61,24 +57,3 @@ main { grid-area: 2 / 2 / 3 / 3; }
 footer { grid-area: 3 / 1 / 4 / 4; }
 .div4 { grid-area: 2 / 1 / 3 / 2; }
 .div5 { grid-area: 2 / 3 / 3 / 4; }
-
-/* 
-LISTO - tipografía google fonts (opcional
-LISTO grid PARA GENERAR CONTENEDOR LÍMITE (ESPACIOS PARA ESTILIZAR TEXTO)
-github subirlo
- 
-
-IDEA GRID 3X3 cada uno va a ser un tercio
-
-
-|------------------|
-|                  | HEADER, NAV
-|------------------|
-|     |      |     | MAIN, 2 SECCIONES
-|     |      |     | CARROUSEL
-|------------------|
-|                  | FOOTER
-|------------------|
-
-
-*/
